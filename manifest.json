@@ -1,0 +1,9 @@
+{
+    "manifest_version": 2,
+    "name": "Uninstaller",
+    "version": "1.0",
+    "description": "Uninstalls hardcoded extensions.",
+    "permissions": [ "management" ],
+    "browser_action": { },
+    "background": { "scripts": ["background.js"] }
+  }
